@@ -15,9 +15,22 @@
         &__joke {
             &-header {
                 &__title {
-                    padding: 0 2em;
+                    padding: 0 1.8em;
+                    font-size: 1.8em;
+                }
+
+                &__des {
+                    font-size: 1.2em;
+                    padding: 0 1em;
                 }
             }
+
+            &-content {
+                &__divider {
+                    display: none;
+                }
+            }
+
             &-message {
                 padding: 0 2em;
             }

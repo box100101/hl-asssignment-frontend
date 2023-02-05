@@ -37,7 +37,10 @@ const Body: React.FC<Props> = () => {
                     ) : (
                         <>
                             <div className="body__joke-content">{jokes[index]}</div>
-                            <Divider width="65%" />
+                            <Divider
+                                className="body__joke-content__divider"
+                                width="65%"
+                            />
                             <div className="body__joke-action">
                                 <div className="body__joke-action__container">
                                     <Button
@@ -54,9 +57,9 @@ const Body: React.FC<Props> = () => {
                             </div>
                         </>
                     )}
-                    <div style={{ width: "100vw", height: "auto" }}>
-                        <Divider />
-                    </div>
+                </div>
+                <div className="body__joke-footer">
+                    <Divider />
                 </div>
             </div>
         </>

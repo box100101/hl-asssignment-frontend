@@ -8,5 +8,20 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: $sm) {
+    .footer {
+        &__wrapper {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        &__copyright {
+            margin-top: 10px;
+        }
+
+        &__divider {
+            margin-top: 6px;
+            display: block;
+        }
+    }
 }

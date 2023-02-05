@@ -1,6 +1,7 @@
 import { text } from "../../constants";
 import "./styles.scss";
 import "./responsive.scss";
+import Divider from "../divider";
 
 export type Props = {};
 
@@ -12,6 +13,7 @@ const Footer: React.FC<Props> = () => {
                 <p className="footer__copyright">
                     {text.footerSection.textCopyright}
                 </p>
+                <Divider className="footer__divider"/>
             </footer>
         </>
     );

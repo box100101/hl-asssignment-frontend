@@ -19,4 +19,8 @@
         font-size: $fs-2;
         color: $color-gray-2;
     }
+
+    &__divider {
+        display: none;
+    }
 }
