@@ -1,0 +1,27 @@
+@use "./assets/variables/index.scss" as *;
+
+.App {
+    width: 100vw;
+    font-size: 14px;
+    height: auto;
+    font-family: $ff-primary;
+}
+
+// responsive
+@media (min-width: $sm) and (max-width: $md) {
+    .App {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: $sm) {
+    .App {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: $e-sm) {
+    .App {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,17 @@
+@use "../../assets/variables/index.scss" as *;
+
+@media (max-width: $e-lg) {
+    .header {
+        &__wrapper {
+            padding: $paddingX;
+        }
+    }
+}
+
+@media (max-width: $e-sm) {
+    .header {
+        &__wrapper {
+            padding: 1em 2em;
+        }
+    }
+}

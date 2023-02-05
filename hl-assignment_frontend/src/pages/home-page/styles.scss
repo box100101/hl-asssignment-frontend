@@ -1,0 +1,10 @@
+@use "../../assets/variables/index.scss" as *;
+
+.main-page {
+    &__wrapper {
+        height: auto;
+        // width: 65%;
+        max-width: $mw;
+        margin: 0 auto;
+    }
+}

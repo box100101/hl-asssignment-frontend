@@ -1,0 +1,78 @@
+@use "../../assets/variables/index.scss" as *;
+
+.body {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    &__joke {
+        &-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 18em;
+            background-color: $color-green;
+            color: $color-white;
+            gap: 1em;
+
+            &__title {
+                font-size: $fs-5;
+                font-weight: $fw-1;
+                text-align: center;
+            }
+
+            &__des {
+            }
+        }
+
+        &-body {
+            height: auto;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $bgc-primary;
+        }
+
+        &-message {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            font-size: $fs-3;
+            color: $color-gray-2;
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        &-content {
+            height: auto;
+            max-width: $mw;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            color: $color-gray-2;
+            opacity: 0.9;
+            font-size: $fs-3;
+            text-align: left;
+        }
+
+        &-action {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: $mw;
+
+            &__container {
+                display: flex;
+                justify-content: center;
+                gap: 2em;
+                margin-top: 40px;
+                margin-bottom: 70px;
+            }
+        }
+    }
+}

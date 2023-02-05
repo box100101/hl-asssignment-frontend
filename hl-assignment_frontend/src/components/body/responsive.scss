@@ -1,0 +1,26 @@
+@use "../../assets/variables/index.scss" as *;
+
+@media (max-width: $e-lg) {
+    .body {
+        &__joke {
+            &-content {
+                padding: $paddingX;
+            }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    .body {
+        &__joke {
+            &-header {
+                &__title {
+                    padding: 0 2em;
+                }
+            }
+            &-message {
+                padding: 0 2em;
+            }
+        }
+    }
+}

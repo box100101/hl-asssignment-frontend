@@ -1,0 +1,22 @@
+@use "../../assets/variables/index.scss" as *;
+
+.footer {
+    &__wrapper {
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    &__des {
+        font-size: $fs-1;
+        color: $color-gray-2;
+        opacity: 0.6;
+    }
+
+    &__copyright {
+        margin-top: 30px;
+        font-size: $fs-2;
+        color: $color-gray-2;
+    }
+}

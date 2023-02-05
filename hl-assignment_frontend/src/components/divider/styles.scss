@@ -1,0 +1,9 @@
+@use "../../assets/variables/index.scss" as *;
+
+.divider {
+    &__wrapper {
+        width: 100%;
+        height: 1px;
+        background-color: $color-gray-3;
+    }
+}

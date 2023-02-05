@@ -1,0 +1,12 @@
+@use "../../assets/variables/index.scss" as *;
+
+@media (max-width: $e-lg) {
+    .footer {
+        &__des {
+            padding: $paddingX;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+}
